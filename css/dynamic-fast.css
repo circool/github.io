@@ -1,0 +1,32 @@
+/* Смена цвета */
+.count *, .wrapper *, .footer *, li, ul {
+    animation: animated_color 4s infinite;
+}
+body {
+    animation: animated_bg 4s infinite;
+}
+@keyframes animated_color {
+    0% {
+        color: rgba(3, 3, 3, .75);
+        border-color: rgba(3, 3, 3, .75);
+    }
+    50% {
+        color: rgba(255, 255, 255, .75);
+        border-color: rgba(255, 255, 255, .75);
+    }
+    100% {
+        color: rgba(3, 3, 3, .75);
+        border-color: rgba(3, 3, 3, .75);
+    }
+}
+@keyframes animated_bg {
+    0% {
+        background-image: url(../img/bg-day.jpg);
+    }
+    50% {
+        background-image: url(../img/bg-night.jpg);
+    }
+    100% {
+        background-image: url(../img/bg-day.jpg);
+    }
+}

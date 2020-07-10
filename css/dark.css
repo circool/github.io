@@ -1,0 +1,8 @@
+body {
+	background-image: url(../img/bg-night.jpg);
+	text-shadow: unset
+}
+
+html *, .wrapper, .header, .footer {
+	color: unset;
+}

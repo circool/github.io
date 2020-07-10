@@ -1,0 +1,9 @@
+body {
+	background-image: url(../img/bg-day.jpg);
+	color: unset;
+	text-shadow: unset
+}
+
+html *, .wrapper, .header, .footer {
+	color: unset;
+}
